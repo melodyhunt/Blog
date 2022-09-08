@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.post{
+  background: rgb(144,150,163);
+background: linear-gradient(90deg, rgba(144,150,163,0.46262254901960786) 0%, rgba(174,213,129,0.2329306722689075) 0%);
+  border: 1px solid #B39DDB;
+  padding: 10px;
+  margin: 10px 40px;
+  border-radius: 5px;
+}
+.estatico{
+  display: none;
+}
+.estatico:checked ~ .leer-mas .objetivo {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+.objetivo {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.estatico , .disparador:before {
+  content:"ver Menos";
+}
+.estatico:checked , .disparador:before {
+  content: "Ver Mas";
+}
+
+.disparador {
+  cursor: pointer;
+  display: inline-block;
+padding: 0px 10px;
+  color:#B39DDB ;
+  font-size: 20px;
+  line-height: 2;
+  border: 1px solid #B39DDB ;
+  border-radius: 10px;
+}
+  .disparador:hover {
+    color: #F48FB1 ;
+    border: 1px solid #F48FB1
+  }
+
