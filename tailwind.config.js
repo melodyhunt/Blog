@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        color1: "#455A64",
-        color2: "#AED581",
-        color3: "#80CBC4",
-        color4: "#90CAF9",
-        color5: "#B39DDB",
-        color6: "#F48FB1",
+        color1: "#927331",
+        color2: "#788C63",
+        color3: "#36473D",
+        color4: "#CDC296",
+        color5: "#927331",
+        color6: "#927331",
       },
       fontFamily: {
-        principal: "Amatic SC",
-        secundario: "Patrick Hand",
+        principal: "Montserrat Alternates",
+        secundario: "Questrial",
       },
     },
   },

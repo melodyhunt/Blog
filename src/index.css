@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200&family=Questrial&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -49,7 +49,7 @@ background: linear-gradient(90deg, rgba(144,150,163,0.46262254901960786) 0%, rgb
 .disparador {
   cursor: pointer;
   display: inline-block;
-padding: 0px 10px;
+  padding: 0px 10px;
   color:#B39DDB ;
   font-size: 20px;
   line-height: 2;
@@ -60,4 +60,11 @@ padding: 0px 10px;
     color: #F48FB1 ;
     border: 1px solid #F48FB1
   }
-
+.primavera{
+  background: rgb(179,157,219);
+  background: linear-gradient(90deg, rgba(179,157,219,0.28895308123249297) 0%, rgba(244,143,177,0.32816876750700286) 67%);
+}
+.invierno{
+  background: rgb(144,202,249);
+background: linear-gradient(90deg, rgba(144,202,249,0.3477766106442577) 0%, rgba(128,203,196,0.4066001400560224) 67%);
+}
