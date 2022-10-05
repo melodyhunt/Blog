@@ -1,7 +1,9 @@
 import React from "react";
 import Navegacion from "../components/navbar";
-
-import Beneficios from "../components/beneficios";
+import Primavera from "../assets/organica.jpg";
+import Flor from "../assets/marga.jpg";
+import Interiores from "../assets/interiores.jpg";
+import { Link } from "react-router-dom";
 
 const Huerta = () => {
   return (
@@ -17,10 +19,96 @@ const Huerta = () => {
             orgánico y funcional.
           </p>
         </div>
-        <div>
-          <h3 className="mb-10 ml-12 font-principal text-color3 text-7xl">
-            Beneficios de tener una huerta en casa
-          </h3>
+        <div className="flex flex-row p-16">
+          <div className="w-2/3">
+            <section className="mb-12">
+              <img
+                src={Interiores}
+                alt="Huerta primavera verano"
+                className="brightness-50"
+              ></img>
+              <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
+                Las cuatro claves del paisajismo moderno
+              </h3>
+              <p className="mb-6 text-xl text-black font-secundario">
+                Cada estación tiene su variedad de cultivo, dependiendo del
+                ambiente, tendrás que planificar lo que vas a sembrar o plantar,
+                de esta manera tendrás el éxitos esperado, y los alimentos no te
+                van a faltar.
+              </p>
+              <Link
+                className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
+                to="/ "
+              >
+                Leer Entrada
+              </Link>
+            </section>
+            <section className="pt-12 pb-12 border-t-2 border-gray-300">
+              <img
+                src={Flor}
+                alt="Huerta primavera verano"
+                className="brightness-50"
+              ></img>
+              <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
+                5 plantas para decorar tu balcón
+              </h3>
+              <p className="mb-6 text-xl text-black font-secundario">
+                Hace un par de años parecía que quien tenía un balcón, tenía un
+                trastero. Era un espacio que, por ser pequeño, no se consideraba
+                habitable y ni mucho menos rentable para cuidarlo y decorarlo.
+              </p>
+              <Link
+                className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
+                to="/ "
+              >
+                Leer Entrada
+              </Link>
+            </section>
+            <section className="pt-12 pb-12 border-t-2 border-gray-300">
+              <img
+                src={Interiores}
+                alt="Huerta primavera verano"
+                className="brightness-50"
+              ></img>
+              <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
+                Las cuatro claves del paisajismo moderno
+              </h3>
+              <p className="mb-6 text-xl text-black font-secundario">
+                Cada estación tiene su variedad de cultivo, dependiendo del
+                ambiente, tendrás que planificar lo que vas a sembrar o plantar,
+                de esta manera tendrás el éxitos esperado, y los alimentos no te
+                van a faltar.
+              </p>
+              <Link
+                className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
+                to="/ "
+              >
+                Leer Entrada
+              </Link>
+            </section>
+            <section className="pt-12 pb-12 border-t-2 border-gray-300">
+              <img
+                src={Primavera}
+                alt="Huerta primavera verano"
+                className="brightness-50"
+              ></img>
+              <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
+                Que podemos plantar segun la época del año
+              </h3>
+              <p className="mb-6 text-xl text-black font-secundario">
+                Cada estación tiene su variedad de cultivo, dependiendo del
+                ambiente, tendrás que planificar lo que vas a sembrar o plantar,
+                de esta manera tendrás el éxitos esperado, y los alimentos no te
+                van a faltar.
+              </p>
+              <Link
+                className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
+                to="/ "
+              >
+                Leer Entrada
+              </Link>
+            </section>
+          </div>
           <div></div>
         </div>
       </div>
