@@ -1,9 +1,9 @@
-import Huerta from "./huerta/";
+import Blog from "./blog";
 import "./index.css";
 import Plantas from "./pages/plantas";
 import Materiales from "./pages/materiales";
-import Invierno from "./pages/invierno";
-import Verano from "./pages/primavera-verano";
+import Huerta from "./pages/huerta";
+import Paisajismo from "./pages/paisajismo";
 import Siembra from "./pages/siembra";
 
 import { Route, Routes } from "react-router-dom";
@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Huerta />} />
+        <Route path="/" element={<Blog />} />
         <Route path="materiales" element={<Materiales />} />
         <Route path="plantas" element={<Plantas />} />
-        <Route path="invierno" element={<Invierno />} />
-        <Route path="primavera-verano" element={<Verano />} />
+        <Route path="huerta" element={<Huerta />} />
+        <Route path="paisajismo" element={<Paisajismo />} />
         <Route path="siembra" element={<Siembra />} />
       </Routes>
     </div>

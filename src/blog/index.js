@@ -38,7 +38,7 @@ const Huerta = () => {
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/ "
+                to="/paisajismo "
               >
                 Leer Entrada
               </Link>
@@ -59,7 +59,7 @@ const Huerta = () => {
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/ "
+                to="/plantas "
               >
                 Leer Entrada
               </Link>
@@ -81,7 +81,7 @@ const Huerta = () => {
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/ "
+                to="/"
               >
                 Leer Entrada
               </Link>
@@ -93,7 +93,7 @@ const Huerta = () => {
                 className="brightness-50"
               ></img>
               <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
-                Que podemos plantar segun la época del año
+                Que podemos plantar en Primavera-Verano
               </h3>
               <p className="mb-6 text-xl text-black font-secundario">
                 Cada estación tiene su variedad de cultivo, dependiendo del
@@ -103,7 +103,7 @@ const Huerta = () => {
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/ "
+                to="/huerta "
               >
                 Leer Entrada
               </Link>

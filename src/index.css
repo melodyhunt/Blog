@@ -17,9 +17,7 @@ code {
     monospace;
 }
 .post{
-  background: rgb(144,150,163);
-background: linear-gradient(90deg, rgba(144,150,163,0.46262254901960786) 0%, rgba(174,213,129,0.2329306722689075) 0%);
-  border: 1px solid #B39DDB;
+  border: 1px solid #36473D;
   padding: 10px;
   margin: 10px 40px;
   border-radius: 5px;
@@ -35,30 +33,33 @@ background: linear-gradient(90deg, rgba(144,150,163,0.46262254901960786) 0%, rgb
 .objetivo {
   opacity: 0;
   max-height: 0;
-  font-size: 0;
+  font-size:0;
   transition: .25s ease;
 }
 
 .estatico , .disparador:before {
-  content:"ver Menos";
+  content:"Leer Mas";
 }
 .estatico:checked , .disparador:before {
-  content: "Ver Mas";
+  content: "Leer Mas";
 }
 
 .disparador {
   cursor: pointer;
   display: inline-block;
-  padding: 0px 10px;
-  color:#B39DDB ;
+  margin-top: 10px;
+  padding: 4px 20px;
+  color:#ffff ;
   font-size: 20px;
   line-height: 2;
-  border: 1px solid #B39DDB ;
-  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: #36473D;
+  border: 1px solid #36473D ;
 }
   .disparador:hover {
-    color: #F48FB1 ;
-    border: 1px solid #F48FB1
+    background-color: #788C63 ;
+    border: 1px solid #788C63;
+
   }
 .primavera{
   background: rgb(179,157,219);

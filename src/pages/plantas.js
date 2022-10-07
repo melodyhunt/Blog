@@ -4,12 +4,23 @@ import Petunia from "../assets/petunia.png";
 import Euphoria from "../assets/euphoria.jpg";
 import Margarita from "../assets/marga.jpg";
 import Lobularia from "../assets/lobularia.jpg";
+import { HiArrowLeft } from "react-icons/hi";
+
+import { NavLink } from "react-router-dom";
 
 const plantas = () => {
   return (
     <div>
       <Navegacion />
-      <div className="p-12">
+      <div className="p-12 bg-[url('./assets/verde.png')] bg-no-repeat bg-cover">
+        <NavLink
+          className="flex flex-row px-3 text-3xl font-secundario text-color1 hover:text-color5"
+          to="/"
+        >
+          <HiArrowLeft className="my-1" />
+          <h3>Volver</h3>
+        </NavLink>
+
         <h1 className="py-12 font-bold text-center font-principal text-7xl text-color5">
           5 plantas para decorar tu balcón
         </h1>

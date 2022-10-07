@@ -7,19 +7,28 @@ import Pala from "../assets/huerta5.png";
 import Maceta from "../assets/huerta12.png";
 import Semillas from "../assets/huerta13.png";
 import Botella from "../assets/huerta31.png";
+import { HiArrowLeft } from "react-icons/hi";
+import { NavLink } from "react-router-dom";
 
 const materiales = () => {
   return (
     <div>
       <Navegacion />
-      <div className="bg-[url('./assets/fond.jpg')]  bg-no-repeat bg-cover block">
-        <h1 className="py-20 mb-20 font-bold text-center font-principal text-7xl text-color6">
+      <NavLink
+        className="flex flex-row px-3 m-10 text-3xl font-secundario text-color1 hover:text-color5"
+        to="/huerta"
+      >
+        <HiArrowLeft className="my-1" />
+        <h3>Volver</h3>
+      </NavLink>
+      <div className="block ">
+        <h1 className="pb-20 mb-20 font-bold text-center font-principal text-7xl text-color6">
           Materiales para crear tu propia Huerta
         </h1>
         <div className="grid grid-cols-1 mx-20 lg:mx-32 justify-items-center md:grid-cols-2 lg:grid-cols-4">
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 bg-color3 hover:bg-color5 hover:p-5 "
+              className="p-10 rounded-full w-60 h-60 bg-color3 hover:bg-color4 hover:p-5 "
               src={Guantes}
               alt="guantes"
             />
@@ -29,7 +38,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 bg-color6 hover:bg-color2 hover:p-5"
+              className="p-10 rounded-full w-60 h-60 bg-color4 hover:bg-color3 hover:p-5"
               src={Tierra}
               alt="tierra"
             />
@@ -39,7 +48,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 hover:bg-color6 hover:p-5 bg-color2"
+              className="p-10 rounded-full w-60 h-60 hover:bg-color4 hover:p-5 bg-color3"
               src={Compost}
               alt="compost"
             />
@@ -49,7 +58,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color5"
+              className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color4"
               src={Pala}
               alt="pala"
             />
@@ -59,7 +68,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 hover:bg-color2 hover:p-5 bg-color4"
+              className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color4"
               src={Regadera}
               alt="regadera"
             />
@@ -69,7 +78,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 hover:bg-color5 hover:p-5 bg-color2"
+              className="p-10 rounded-full w-60 h-60 hover:bg-color4 hover:p-5 bg-color3"
               src={Maceta}
               alt="maceta"
             />
@@ -79,7 +88,7 @@ const materiales = () => {
           </section>
           <section>
             <img
-              className="p-10 rounded-full w-60 h-60 hover:bg-color4 hover:p-5 bg-color3"
+              className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color4"
               src={Semillas}
               alt="semilla"
             />
@@ -90,7 +99,7 @@ const materiales = () => {
         </div>
         <div className="flex flex-col items-center justify-center lg:flex-row mt-28">
           <img
-            className="p-10 rounded-full w-60 h-60 hover:bg-color6 hover:p-5 bg-color2"
+            className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color4"
             src={Botella}
             alt="botella"
           />
