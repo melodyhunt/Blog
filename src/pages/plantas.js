@@ -15,11 +15,10 @@ const plantas = () => {
       <Navegacion />
       <div className="p-12 bg-[url('./assets/verde.png')] bg-no-repeat bg-cover">
         <NavLink
-          className="flex flex-row px-3 text-3xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
-          <h3>Volver</h3>
         </NavLink>
 
         <h1 className="py-12 font-bold text-center font-principal text-7xl text-color5">

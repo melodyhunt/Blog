@@ -16,11 +16,10 @@ const materiales = () => {
     <div>
       <Navegacion />
       <NavLink
-        className="flex flex-row px-3 m-10 text-3xl font-secundario text-color1 hover:text-color5"
-        to="/huerta"
+        className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+        to="/"
       >
         <HiArrowLeft className="my-1" />
-        <h3>Volver</h3>
       </NavLink>
       <div className="block ">
         <h1 className="pb-20 mb-20 font-bold text-center font-principal text-7xl text-color6">

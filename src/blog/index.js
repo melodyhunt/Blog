@@ -145,8 +145,9 @@ const Huerta = () => {
                 </p>
               </section>
               <Link
-                to="/"
+                to="/cursos"
                 className="px-10 py-5 font-light text-white uppercase font-secundario bg-color1 hover:bg-yellow-900"
+                target="_top"
               >
                 Ver Todos los Cursos
               </Link>
