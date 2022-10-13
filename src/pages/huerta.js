@@ -7,7 +7,7 @@ const Huerta = () => {
   return (
     <div className="text-justify">
       <Navegacion />
-      <div className="bg-[url('./assets/verduras.png')] bg-no-repeat bg-cover ">
+      <div className="bg-[url('./assets/verduras.png')] bg-repeat  ">
         <NavLink
           className="flex flex-row p-10 px-3 text-xl hover:text-2xl font-secundario text-color1 hover:text-color5"
           to="/"

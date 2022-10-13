@@ -1,6 +1,6 @@
 function VerdurasFrutas(props) {
   return (
-    <div className="block p-5 m-5 border-2 rounded-lg bg-opacity-10 bg-color2 border-color1">
+    <div className="block p-5 m-5 border-2 rounded-lg bg-opacity-10 bg-color4 border-color1">
       <section className="">
         <div className="flex flex-col justify-center ">
           <h2 className="text-4xl font-extrabold text-transparent uppercase bg-clip-text bg-gradient-to-r from-yellow-900 to-orange-600">

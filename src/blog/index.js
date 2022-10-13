@@ -3,6 +3,7 @@ import Navegacion from "../components/navbar";
 import Primavera from "../assets/organica.jpg";
 import Flor from "../assets/marga.jpg";
 import Interiores from "../assets/interiores.jpg";
+import Arbusto from "../assets/arbustos.jpeg";
 import { Link } from "react-router-dom";
 
 const Huerta = () => {
@@ -19,8 +20,11 @@ const Huerta = () => {
             orgánico y funcional.
           </p>
         </div>
-        <div className="flex flex-row p-16">
-          <div className="w-2/3">
+        <div className="flex flex-row p-16 px-80">
+          <div className="w-2/4 mr-10">
+            <h1 className="mb-10 text-6xl font-semibold text-color3 font-secundario">
+              Blog
+            </h1>
             <section className="mb-12">
               <img
                 src={Interiores}
@@ -39,11 +43,12 @@ const Huerta = () => {
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
                 to="/paisajismo "
+                target="_top"
               >
                 Leer Entrada
               </Link>
             </section>
-            <section className="pt-12 pb-12 border-t-2 border-gray-300">
+            <section className="pt-12 pb-12 border-t-2 border-gray-300 ">
               <img
                 src={Flor}
                 alt="Huerta primavera verano"
@@ -60,28 +65,29 @@ const Huerta = () => {
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
                 to="/plantas "
+                target="_top"
               >
                 Leer Entrada
               </Link>
             </section>
             <section className="pt-12 pb-12 border-t-2 border-gray-300">
               <img
-                src={Interiores}
+                src={Arbusto}
                 alt="Huerta primavera verano"
-                className="brightness-50"
+                className="brightness-50 w-[700px]"
               ></img>
               <h3 className="my-4 text-2xl font-bold uppercase font-secundario text-color1">
-                Las cuatro claves del paisajismo moderno
+                Los arbustos en el jardín
               </h3>
               <p className="mb-6 text-xl text-black font-secundario">
-                Cada estación tiene su variedad de cultivo, dependiendo del
-                ambiente, tendrás que planificar lo que vas a sembrar o plantar,
-                de esta manera tendrás el éxitos esperado, y los alimentos no te
-                van a faltar.
+                hablaremos de uno de los elementos más prácticos para tu jardín,
+                los arbustos. En Terra Santa consideramos los arbustos elementos
+                principales para un jardín por la gran versatilidad que tienen.
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/"
+                to="/arbusto"
+                target="_top"
               >
                 Leer Entrada
               </Link>
@@ -103,13 +109,48 @@ const Huerta = () => {
               </p>
               <Link
                 className="px-6 py-3 text-2xl text-white uppercase bg-color3 hover:bg-color2"
-                to="/huerta "
+                to="/huerta"
+                target="_top"
               >
                 Leer Entrada
               </Link>
             </section>
           </div>
-          <div></div>
+          <div className="text-3xl font-bold font-principal ">
+            <h1 className="mb-10 text-6xl font-semibold text-color3 font-secundario">
+              Cursos
+            </h1>
+            <div>
+              <section>
+                <h1 className="mb-8 text-5xl font-semibold text-color1 font-secundario">
+                  Las 20 Tácticas para el Diseño de jardines
+                </h1>
+                <p className="pl-6 mb-6">
+                  Cupo: <span className="font-light">20</span>
+                </p>
+                <p className="pl-6 mb-6">Presencial</p>
+                <p className="pb-6 pl-6 border-b-2 border-gray-400">$23997</p>
+              </section>
+              <section>
+                <h1 className="my-8 text-5xl font-semibold text-color1 font-secundario">
+                  Bonsái
+                </h1>
+                <p className="pl-6 mb-6">
+                  Curso: <span className="font-light">50</span>
+                </p>
+                <p className="pl-6 mb-6">Virtual</p>
+                <p className="pb-6 pl-6 mb-10 border-b-2 border-gray-400">
+                  $17899
+                </p>
+              </section>
+              <Link
+                to="/"
+                className="px-10 py-5 font-light text-white uppercase font-secundario bg-color1 hover:bg-yellow-900"
+              >
+                Ver Todos los Cursos
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/terra.png";
+import DropdownComponent from "./Dropwns";
 
 const Navegacion = () => {
   const [open, setOpen] = useState(false);
@@ -21,13 +22,12 @@ const Navegacion = () => {
       </span>
 
       <div className="justify-center text-4xl hiddenn bg-color2 md:flex md:flex-row font-secundario">
-        <NavLink to="/materiales">
-          <h3 className="my-3 text-white mx-9 hover:text-color3">Materiales</h3>
+        <DropdownComponent />
+        <NavLink to="/cursos">
+          <h3 className="my-3 text-white mx-9 hover:text-color3">Cursos</h3>
         </NavLink>
-        <NavLink to="/plantas">
-          <h3 className="my-3 text-white mx-9 hover:text-color3">
-            Que Plantar
-          </h3>
+        <NavLink to="/contacto">
+          <h3 className="my-3 text-white mx-9 hover:text-color3">Contacto</h3>
         </NavLink>
         <NavLink to="/siembra">
           <h3 className="my-3 text-white mx-9 hover:text-color3">Siembra</h3>
@@ -36,12 +36,12 @@ const Navegacion = () => {
       {open && (
         <div className="flex flex-row">
           <div className="block mt-32 mr-10 text-2xl text-white px-7 font-secundario">
-            <NavLink exact="true" activeclassname="active" to="/materiales">
-              <p className="text-white hover:text-color6">Materiales</p>
+            <NavLink exact="true" activeclassname="active" to="/cursos">
+              <p className="text-white hover:text-color6">cursos</p>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/plantas">
+            <NavLink exact="true" activeclassname="active" to="/contacto">
               <p className="pt-3 text-color2 pb-7 hover:text-color6">
-                Que Plantar
+                Contacto
               </p>
             </NavLink>
             <NavLink exact="true" activeclassname="active" to="/siembra">

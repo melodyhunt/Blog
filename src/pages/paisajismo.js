@@ -7,7 +7,7 @@ const Paisajismo = () => {
   return (
     <div className="text-justify ">
       <Navegacion />
-      <div className=" px-24 pt-12 bg-[url('./assets/marron.png')] bg-no-repeat bg-cover ">
+      <div className=" px-24 pt-12 bg-[url('./assets/brown.png')] bg-no-repeat bg-cover ">
         <NavLink
           className="flex flex-row px-3 text-3xl font-secundario text-color1 hover:text-color5"
           to="/"
@@ -19,7 +19,7 @@ const Paisajismo = () => {
         <h1 className="pb-12 font-bold text-center font-principal text-7xl text-color5">
           Las cuatro claves del paisajismo moderno
         </h1>
-        <p className="text-2xl text-black font-principal">
+        <p className="text-2xl font-bold text-black font-principal">
           El paisajismo es una disciplina que engloba la planificación, gestión,
           conservación y rehabilitación de un espacio o paisaje, que va más allá
           de ser un recurso estético, y que se ha convertido en una herramienta
@@ -29,7 +29,7 @@ const Paisajismo = () => {
           disciplina.
         </p>
         <img src={Interiores} alt="interiores" className="float-right mx-6 " />
-        <p className="text-2xl text-black font-principal">
+        <p className="text-2xl font-semibold text-black font-principal">
           El primer acercamiento a los jardines llegó de la mano de los
           mesopotámicos, que crearon espacios verdes resguardados entre muros,
           seguidos de los persas, con jardines como los de Babilonia, que se
@@ -41,7 +41,7 @@ const Paisajismo = () => {
           cuando los jardines vivieron su época dorada, con el jardín francés y
           el jardín inglés entre los más destacados.
         </p>
-        <p className="text-2xl text-black font-principal">
+        <p className="text-2xl font-semibold text-black font-principal">
           En la actualidad, y tras miles de años de evolución, los espacios
           verdes han llegado a la sociedad, integrándose nuestro día a día y
           adaptándose a los tiempos actuales. Esto ha hecho que la figura del
