@@ -2,6 +2,7 @@ import Navegacion from "../components/navbar";
 import { HiArrowLeft } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import VerdurasFrutas from "../components/Verduras-Frutas";
+import Footer from "../components/footer";
 
 const Huerta = () => {
   return (
@@ -171,6 +172,7 @@ const Huerta = () => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

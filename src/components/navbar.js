@@ -23,29 +23,20 @@ const Navegacion = () => {
 
       <div className="justify-center text-4xl hiddenn bg-color2 md:flex md:flex-row font-secundario">
         <DropdownComponent />
-        <NavLink to="/cursos">
-          <h3 className="my-3 text-white mx-9 hover:text-color3">Cursos</h3>
-        </NavLink>
+
         <NavLink to="/contacto">
           <h3 className="my-3 text-white mx-9 hover:text-color3">Contacto</h3>
-        </NavLink>
-        <NavLink to="/siembra">
-          <h3 className="my-3 text-white mx-9 hover:text-color3">Siembra</h3>
         </NavLink>
       </div>
       {open && (
         <div className="flex flex-row">
           <div className="block mt-32 mr-10 text-2xl text-white px-7 font-secundario">
-            <NavLink exact="true" activeclassname="active" to="/cursos">
-              <p className="text-white hover:text-color6">cursos</p>
-            </NavLink>
+            <DropdownComponent />
+
             <NavLink exact="true" activeclassname="active" to="/contacto">
               <p className="pt-3 text-color2 pb-7 hover:text-color6">
                 Contacto
               </p>
-            </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/siembra">
-              <p className="pt-3 text-color2 pb-7 hover:text-color6">Siembra</p>
             </NavLink>
           </div>
           <div>

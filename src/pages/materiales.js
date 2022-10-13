@@ -9,6 +9,7 @@ import Semillas from "../assets/huerta13.png";
 import Botella from "../assets/huerta31.png";
 import { HiArrowLeft } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
+import Footer from "../components/footer";
 
 const materiales = () => {
   return (
@@ -97,7 +98,7 @@ const materiales = () => {
             </h3>
           </section>
         </div>
-        <div className="flex flex-col items-center justify-center lg:flex-row mt-28">
+        <div className="flex flex-col items-center justify-center pb-16 lg:flex-row mt-28">
           <img
             className="p-10 rounded-full w-60 h-60 hover:bg-color3 hover:p-5 bg-color4"
             src={Botella}
@@ -110,6 +111,7 @@ const materiales = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

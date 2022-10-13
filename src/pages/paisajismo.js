@@ -2,6 +2,7 @@ import Navegacion from "../components/navbar";
 import { HiArrowLeft } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import Interiores from "../assets/interiores.jpg";
+import Footer from "../components/footer";
 
 const Paisajismo = () => {
   return (
@@ -50,7 +51,7 @@ const Paisajismo = () => {
           vegetación. Estas son algunas de las claves que definen el paisajismo
           moderno:
         </p>
-        <div className="grid grid-cols-2 gap-10 mt-16">
+        <div className="grid grid-cols-2 gap-10 pb-16 mt-16">
           <div className="post ">
             <input type="checkbox" className="estatico" id="post-1" />
             <section className="leer-mas">
@@ -174,6 +175,7 @@ const Paisajismo = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

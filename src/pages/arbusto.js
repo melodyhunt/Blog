@@ -3,6 +3,7 @@ import Arb1 from "../assets/arb1.jpg";
 import Arb2 from "../assets/arb2.jpeg";
 import Arb3 from "../assets/arb3.jpg";
 import Arb4 from "../assets/arb4.jpg";
+import Footer from "../components/footer";
 
 import { HiArrowLeft } from "react-icons/hi";
 
@@ -129,6 +130,7 @@ const Arbusto = () => {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

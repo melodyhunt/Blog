@@ -5,6 +5,7 @@ import Euphoria from "../assets/euphoria.jpg";
 import Margarita from "../assets/marga.jpg";
 import Lobularia from "../assets/lobularia.jpg";
 import { HiArrowLeft } from "react-icons/hi";
+import Footer from "../components/footer";
 
 import { NavLink } from "react-router-dom";
 
@@ -143,6 +144,7 @@ const plantas = () => {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
