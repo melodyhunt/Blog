@@ -11,7 +11,7 @@ const Cursos = () => {
       <Navegacion />
       <div className=" bg-[url('./assets/brown.png')] bg-no-repeat bg-cover ">
         <NavLink
-          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row px-3 text-3xl md:text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
@@ -19,8 +19,8 @@ const Cursos = () => {
         <h1 className="pb-12 font-bold text-center font-principal text-7xl text-color5 ">
           Cursos
         </h1>
-        <div className="grid grid-cols-3 gap-6 px-32 pb-16">
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+        <div className="grid grid-cols-1 gap-6 px-8 pb-16 md:grid-cols-2 lg:grid-cols-3 md:px-20 lg:px-32 ">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Curso Básico de Diseño de Jardines"
               historia="Cómo diseñar un jardín de manera profesional paso a paso"
@@ -38,7 +38,7 @@ const Cursos = () => {
               duracion="2 meses"
             />
           </div>
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Huerto Orgánico en casa"
               historia="Aprende paso a paso como producir tus propios alimentos saludables y orgánicos desde tu casa."
@@ -56,7 +56,7 @@ const Cursos = () => {
               duracion="6hs de videos"
             />
           </div>
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Las 20 Tácticas para el Diseño de Jardines"
               historia="Aprende y domina las técnicas más poderosas para componer los espacio verdes."
@@ -74,7 +74,7 @@ const Cursos = () => {
               duracion="6 meses"
             />
           </div>
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Redes Sociales para Paisajistas"
               historia="¿Te gustaría diferenciarte de la competencia?"
@@ -92,7 +92,7 @@ const Cursos = () => {
               duracion="3 meses"
             />
           </div>
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Digitaliza tus Ideas"
               historia="Domina el diseño de jardines en PC y ofrece a tus clientes un servicio más profesional."
@@ -110,7 +110,7 @@ const Cursos = () => {
               duracion="3 meses"
             />
           </div>
-          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4">
+          <div className="p-6 rounded-lg hover:bg-opacity-70 bg-opacity-30 bg-color4 curso">
             <Cursito
               nombre="Digitaliza tus Ideas"
               historia="Adquirir los conocimientos básicos necesarios para el cuidado, cultivo, sanidad y propagación de cactus y suculentas"

@@ -15,10 +15,10 @@ const Formulario = () => {
       <div class="flex h-screen font-principal items-center justify-center  mt-16 ">
         <form
           onSubmit={handleSubmit(customSubmit)}
-          className="grid w-11/12 p-16 mb-56 bg-white bg-opacity-50 rounded-lg shadow-xl md:w-9/12 lg:w-1/2"
+          className="grid w-11/12 p-6 mb-56 bg-white bg-opacity-50 rounded-lg shadow-xl md:p-16 md:w-9/12 lg:w-1/2"
         >
-          <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 md:gap-8 mx-7">
-            <div className="grid grid-cols-1">
+          <div className="grid grid-cols-1 mt-5 md:grid-cols-2 md:gap-8 mx-7">
+            <div className="hidden grid-cols-1 md:grid">
               <label className="text-xs font-bold text-gray-900 uppercase md:text-sm text-light">
                 nombre
               </label>
@@ -28,7 +28,7 @@ const Formulario = () => {
                 {...register("nombre", {
                   required: true,
                 })}
-                className="px-3 py-2 mt-1 text-black border-2 rounded-lg font-secundario border-color1 focus:outline-none focus:ring-2 focus:ring-color2 focus:border-transparent"
+                className="px-3 py-2 mt-1 mr-2 text-black border-2 rounded-lg md:mr-0 font-secundario border-color1 focus:outline-none focus:ring-2 focus:ring-color2 focus:border-transparent"
               />
               {errors.nombre?.type === "required" && (
                 <p className="text-red-500 text-md font-secundario">
@@ -36,9 +36,27 @@ const Formulario = () => {
                 </p>
               )}
             </div>
-            <div className="grid grid-cols-1">
+            <div className="hidden grid-cols-1 md:grid">
               <label className="text-xs font-bold text-gray-900 uppercase md:text-sm text-light">
                 Apellido
+              </label>
+              <input
+                type="text"
+                placeholder="apellido"
+                {...register("apellido", {
+                  required: true,
+                })}
+                className="px-3 py-2 mt-1 text-black border-2 rounded-lg font-secundario border-color1 focus:outline-none focus:ring-2 focus:ring-color2 focus:border-transparent"
+              />
+              {errors.apellido?.type === "required" && (
+                <p className="text-red-500 text-md font-secundario">
+                  El campo no puede estar vacío
+                </p>
+              )}
+            </div>
+            <div className="grid grid-cols-1 md:hidden">
+              <label className="text-xs font-bold text-gray-900 uppercase md:text-sm text-light">
+                Nombre y Apellido
               </label>
               <input
                 type="text"

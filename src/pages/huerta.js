@@ -10,13 +10,13 @@ const Huerta = () => {
       <Navegacion />
       <div className="bg-[url('./assets/verduras.png')] bg-repeat  ">
         <NavLink
-          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row px-3 text-3xl md:text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
-        <div className="px-24 pb-24 text-2xl text-black font-secundario">
-          <h1 className="pb-12 font-bold text-center font-principal text-7xl text-color5">
+        <div className="px-6 pb-24 text-2xl text-black lg:px-24 md:px-12 font-secundario">
+          <h1 className="pb-12 text-5xl font-bold text-center font-principal lg:text-7xl md:text-6xl text-color5">
             Que podemos plantar en Primavera-Verano
           </h1>
           <strong className="text-2xl text-black ">
@@ -60,10 +60,10 @@ const Huerta = () => {
             Ver Materiales
           </NavLink>
         </div>
-        <h1 className="px-24 mb-4 text-4xl font-semibold font-principal text-color2">
+        <h1 className="px-6 mb-4 text-2xl font-bold md:text-4xl lg:px-24 md:px-12 font-principal text-color2">
           Calendario de siembra para la primavera y el verano:
         </h1>
-        <div className="grid grid-cols-2 px-24 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 font-principal">
+        <div className="grid grid-cols-1 px-6 md:px-12 lg:px-24 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 font-principal">
           <VerdurasFrutas
             id="10"
             nombre="Tomate"

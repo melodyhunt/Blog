@@ -15,13 +15,13 @@ const Arbusto = () => {
       <Navegacion />
       <div className="p-12 font-bold bg-[url('./assets/marron.png')] bg-no-repeat bg-cover">
         <NavLink
-          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row px-3 text-3xl md:text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
 
-        <h1 className="py-12 font-bold text-center font-principal text-7xl text-color5">
+        <h1 className="py-12 text-5xl font-bold text-center font-principal lg:text-7xl md:6xl text-color5">
           Los arbustos en el jardín
         </h1>
         <p className="text-2xl text-black font-principal">
@@ -63,9 +63,9 @@ const Arbusto = () => {
             <img
               src={Arb1}
               alt="Arbustos con flores"
-              className="float-right mx-4 mt-8 rounded-lg shadow-2xl w-72 "
+              className="float-none mt-5 rounded-lg shadow-lg md:shadow-2xl md:float-right md:mx-4 lg:mt-8 w-72 "
             />
-            <p className="mt-24 text-2xl text-left text-black py-9 font-principal">
+            <p className="text-2xl text-left text-black lg:mt-24 py-9 font-principal">
               Con este tipo de arbustos daremos color a cualquier espacio y
               podremos elegir entre una gran variedad de estilos y gamas. Además
               de colorido, también aportarán aroma y en ocasiones generarán
@@ -73,15 +73,15 @@ const Arbusto = () => {
             </p>
           </section>
           <section className="text-center ">
-            <h2 className="mt-24 mb-4 text-3xl text-color3 border-color4 border-y-4">
+            <h2 className="mt-6 mb-4 text-3xl lg:mt-24 text-color3 border-color4 border-y-4">
               Arbustos ornamentales
             </h2>
             <img
               src={Arb2}
               alt="Arbustos ornamentales"
-              className="float-left mx-4 rounded-lg shadow-2xl w-72 "
+              className="float-none rounded-lg shadow-lg md:float-left md:mx-4 md:shadow-2xl w-72 "
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="text-2xl text-left text-black lg:mt-12 py-9 font-principal">
               Si aprecias más la forma que el color te aconsejamos los arbustos
               ornamentales como el boj. Podrás ser creativo y jugar con las
               formas y los tamaños para aportar características estéticas
@@ -90,15 +90,15 @@ const Arbusto = () => {
             </p>
           </section>
           <section className="text-center ">
-            <h2 className="mt-24 mb-4 text-3xl text-color3 border-color4 border-y-4">
+            <h2 className="mb-4 text-3xl lg:mt-24 mt:6 text-color3 border-color4 border-y-4">
               Arbustos de hoja perenne
             </h2>
             <img
               src={Arb3}
               alt="Arbustos de hoja perenne"
-              className="float-right mx-4 mt-4 rounded-lg shadow-2xl w-96 "
+              className="float-none mt-5 rounded-lg shadow-lg md:shadow-2xl md:float-right md:mx-4 lg:mt-8 w-72"
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="text-2xl text-left text-black lg:mt-12 py-9 font-principal">
               Son ideales si queremos que luzcan verdes durante todo el año, ya
               que las hojas caerán en otoño e invierno, pero seguirán creciendo
               hojas nuevas durante todo el año. Además, aguantan bien las bajas
@@ -108,15 +108,15 @@ const Arbusto = () => {
             </p>
           </section>
           <section className="text-center ">
-            <h2 className="mt-24 mb-4 text-3xl text-color3 border-color4 border-y-4">
+            <h2 className="mb-4 text-3xl  lg:mt-24 text-color3 border-color4 border-y-4">
               Arbustos para macetas
             </h2>
             <img
               src={Arb4}
               alt="Arbustos para macetas"
-              className="float-left mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none rounded-lg shadow-lg md:float-left md:mx-4 md:shadow-2xl w-72 "
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="text-2xl text-left text-black lg:mt-12 py-9 font-principal">
               En caso de querer arbustos y no tener un jardín grande donde
               plantarlos, podrás ponerlos en tu terraza o patio metidos en
               macetas. Normalmente los arbustos toleran bien las podas, por lo

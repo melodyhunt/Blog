@@ -13,15 +13,15 @@ const plantas = () => {
   return (
     <div>
       <Navegacion />
-      <div className="p-12 bg-[url('./assets/verde.png')] bg-no-repeat bg-cover">
+      <div className="p-12 text-justify bg-[url('./assets/verde.png')] bg-no-repeat bg-cover">
         <NavLink
-          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row px-3 text-3xl md:text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
 
-        <h1 className="py-12 font-bold text-center font-principal text-7xl text-color5">
+        <h1 className="py-12 text-4xl font-bold text-center font-principal md:text-6xl lg:text-7xl text-color5">
           5 plantas para decorar tu balcón
         </h1>
         <p className="text-2xl text-black font-principal">
@@ -33,7 +33,7 @@ const plantas = () => {
           de colorido y en los vecindarios comienza a existir un entorno
           paisajístico natural muy primaveral.
         </p>
-        <h1 className="text-3xl font-bold font-secundario text-color2 m-9">
+        <h1 className="text-2xl font-bold md:text-3xl font-secundario text-color2 m-9">
           ¿Qué flores plantar en el balcón?
         </h1>
         <p className="text-2xl text-black font-principal">
@@ -51,9 +51,9 @@ const plantas = () => {
             <img
               src={Violeta}
               alt="Geranium ‘Rozanne’"
-              className="float-right mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none my-2 rounded-lg shadow-lg lg:shadow-2xl md:mx-4 md:float-right w-80 lg:w-96"
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="py-4 text-2xl text-left text-black lg:mt-12 lg:py-9 font-principal">
               Esta variedad perenne, suele confundirse con el geranio común por
               ser de la misma familia. Es una planta típica de climas templados,
               es herbácea y crece en forma de matas tupidas. Sus hojas son
@@ -70,9 +70,9 @@ const plantas = () => {
             <img
               src={Euphoria}
               alt="Euphorbia myrsinites"
-              className="float-left mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none my-2 rounded-lg shadow-lg lg:shadow-2xl md:mx-4 md:float-left w-80 lg:w-96 "
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="py-4 text-2xl text-left text-black lg:mt-12 lg:py-9 font-principal">
               Pertenece a la familia de las euforbiáceas. Es una planta muy
               resistente al sol que necesita muy poco riego. Tienen una base
               leñosa de la que surgen ramas muy ornamentales. Sus hojas ovales y
@@ -89,9 +89,9 @@ const plantas = () => {
             <img
               src={Margarita}
               alt="Erigeron karvinskianus"
-              className="float-right mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none my-2 rounded-lg shadow-lg lg:shadow-2xl md:mx-4 md:float-right w-80 lg:w-96"
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="py-4 text-2xl text-left text-black lg:mt-12 lg:py-9 font-principal">
               Esta planta, originaria de México, es muy versátil. Sus flores son
               un tipo de margaritas, que tienen una larga duración. En cuanto a
               las hojas, son pequeñas y perennes de color verde claro. Es una
@@ -108,9 +108,9 @@ const plantas = () => {
             <img
               src={Lobularia}
               alt="Lobularia marítima"
-              className="float-left mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none my-2 rounded-lg shadow-lg lg:shadow-2xl md:mx-4 md:float-left w-80 lg:w-96"
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="py-4 text-2xl text-left text-black lg:mt-12 lg:py-9 font-principal">
               También llamada, aliso marítimo, es una planta con origen
               mediterráneo. También se forma en matas y tiene una floración muy
               abundante y vistosa. Perfecta para plantar cuando empieza la
@@ -128,9 +128,9 @@ const plantas = () => {
             <img
               src={Petunia}
               alt="Petunia ‘Surfinia’"
-              className="float-right mx-4 rounded-lg shadow-2xl w-96 "
+              className="float-none my-2 rounded-lg shadow-lg lg:shadow-2xl md:mx-4 md:float-right w-80 lg:w-96"
             />
-            <p className="mt-12 text-2xl text-left text-black py-9 font-principal">
+            <p className="py-4 text-2xl text-left text-black lg:mt-12 lg:py-9 font-principal">
               Estas flores, muy características durante la primavera, son un
               híbrido de las petunias. Tiene varias opciones de plantación, en
               macetas y cestos, según cómo las plantemos aportaremos un toque

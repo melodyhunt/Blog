@@ -8,15 +8,15 @@ const Paisajismo = () => {
   return (
     <div className="text-justify ">
       <Navegacion />
-      <div className=" px-24 pt-12 bg-[url('./assets/brown.png')] bg-no-repeat bg-cover ">
+      <div className=" lg:px-24 px-6 pt-2 md:pt-12 bg-[url('./assets/brown.png')] bg-no-repeat bg-cover ">
         <NavLink
-          className="flex flex-row px-3 text-5xl font-secundario text-color1 hover:text-color5"
+          className="flex flex-row text-3xl md:px-3 md:text-5xl font-secundario text-color1 hover:text-color5"
           to="/"
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
 
-        <h1 className="pb-12 font-bold text-center font-principal text-7xl text-color5">
+        <h1 className="pt-4 pb-12 text-4xl font-bold text-center font-principal md:text-5xl lg:text-7xl text-color5">
           Las cuatro claves del paisajismo moderno
         </h1>
         <p className="text-2xl font-bold text-black font-principal">
@@ -28,7 +28,11 @@ const Paisajismo = () => {
           lo rodeaba, convirtiéndose el jardín en la máxima expresión de esta
           disciplina.
         </p>
-        <img src={Interiores} alt="interiores" className="float-right mx-6 " />
+        <img
+          src={Interiores}
+          alt="interiores"
+          className="float-none my-2 lg:mx-6 lg:float-right"
+        />
         <p className="text-2xl font-semibold text-black font-principal">
           El primer acercamiento a los jardines llegó de la mano de los
           mesopotámicos, que crearon espacios verdes resguardados entre muros,
@@ -50,7 +54,7 @@ const Paisajismo = () => {
           vegetación. Estas son algunas de las claves que definen el paisajismo
           moderno:
         </p>
-        <div className="grid grid-cols-2 gap-10 pb-16 mt-16">
+        <div className="flex flex-col pb-16 mt-16">
           <div className="post ">
             <input type="checkbox" className="estatico" id="post-1" />
             <section className="leer-mas">

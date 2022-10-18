@@ -12,18 +12,18 @@ const Huerta = () => {
     <div>
       <Navegacion />
       <div className="">
-        <div className=" bg-[url('./assets/boho.jpg')] p-28 bg-no-repeat bg-cover block  ">
-          <h2 className="px-32 pt-12 text-6xl font-bold text-white font-secundario">
+        <div className=" bg-[url('./assets/boho.jpg')] lg:p-28 md:p-12 p-4 bg-no-repeat md:bg-cover block  ">
+          <h2 className="px-4 pt-6 text-4xl font-bold text-white md:text-6xl md:pt-12 lg:px-32 md:px-16 anima font-secundario">
             Un blog para vivir en exteriores con consejos y cursos.
           </h2>
-          <p className="w-2/3 p-10 mx-32 mt-16 text-3xl text-white font-principal bg-opacity-60 bg-color2 rounded-xl">
+          <p className="p-2 px-6 mx-2 mt-6 text-xl text-white w-3/2 md:mt-16 md:p-4 lg:w-2/3 lg:p-10 md:text-3xl lg:mx-32 md:mx-16 anima font-principal bg-opacity-60 bg-color2 rounded-xl">
             nos enfocamos en respetar los espacios para mantener un ecosistema
             orgánico y funcional.
           </p>
         </div>
-        <div className="flex flex-row p-16 px-32">
-          <div className="w-2/3 mr-10">
-            <h1 className="mb-10 text-6xl font-semibold text-color3 font-secundario">
+        <div className="flex flex-col lg:flex-row p-16 md:px-10 px-4 lg:px-32 bg-[url('./assets/verde.png')] bg-repeat md:bg-cover">
+          <div className="mr-5 lg:mr-10 lg:w-2/3 ">
+            <h1 className="mb-10 text-5xl font-semibold lg:text-6xl text-color3 font-secundario">
               Blog
             </h1>
             <section className="mb-12">
@@ -118,12 +118,12 @@ const Huerta = () => {
             </section>
           </div>
           <div className="text-2xl font-bold font-principal ">
-            <h1 className="mb-10 text-6xl font-semibold text-color3 font-secundario">
+            <h1 className="mb-10 text-5xl font-semibold lg:text-6xl text-color3 font-secundario">
               Cursos
             </h1>
             <div>
               <section>
-                <h1 className="mb-8 text-4xl font-semibold text-color1 font-secundario">
+                <h1 className="mb-8 text-3xl font-semibold lg:text-4xl text-color1 font-secundario">
                   Las 20 Tácticas para el Diseño de jardines
                 </h1>
                 <p className="pl-6 mb-6">
@@ -133,7 +133,7 @@ const Huerta = () => {
                 <p className="pb-6 pl-6 border-b-2 border-gray-400">$10550</p>
               </section>
               <section>
-                <h1 className="my-8 text-4xl font-semibold text-color1 font-secundario">
+                <h1 className="pt-2 mb-8 text-3xl font-semibold lg:text-4xl text-color1 font-secundario">
                   Digitaliza tus ideas
                 </h1>
                 <p className="pl-6 mb-6">
@@ -146,10 +146,10 @@ const Huerta = () => {
               </section>
               <Link
                 to="/cursos"
-                className="px-10 py-5 font-light text-white uppercase font-secundario bg-color1 hover:bg-yellow-900"
+                className="px-6 py-3 text-xl font-light text-white uppercase lg:text-2xl lg:px-10 lg:py-5 font-secundario bg-color1 hover:bg-yellow-900"
                 target="_top"
               >
-                Ver Todos los Cursos
+                ver Todos los Cursos
               </Link>
             </div>
           </div>

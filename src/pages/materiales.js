@@ -22,10 +22,10 @@ const materiales = () => {
         <HiArrowLeft className="my-1" />
       </NavLink>
       <div className="block ">
-        <h1 className="pb-20 mb-20 font-bold text-center font-principal text-7xl text-color6">
+        <h1 className="pb-20 mb-20 text-4xl font-bold text-center font-principal md:text-7xl text-color6">
           Materiales para crear tu propia Huerta
         </h1>
-        <div className="grid grid-cols-1 mx-20 lg:mx-32 justify-items-center md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 mx-20 lg:mx-32 justify-items-center md:grid-cols-2 lg:grid-cols-4 curso">
           <section>
             <img
               className="p-10 rounded-full w-60 h-60 bg-color3 hover:bg-color4 hover:p-5 "

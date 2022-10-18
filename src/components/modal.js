@@ -17,7 +17,7 @@ const Modale = (props) => {
     <div>
       <button
         onClick={toggleModal}
-        className="px-6 py-2 text-2xl text-white bg-color1 hover:bg-color5 rounded-xl"
+        className="px-6 py-2 text-2xl text-white bg-color2 hover:bg-color5 rounded-xl"
       >
         {props.boton}
       </button>
@@ -28,15 +28,17 @@ const Modale = (props) => {
         contentLabel="My dialog"
         className="absolute top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center bg-opacity-60 bg-slate-800"
       >
-        <div className="flex flex-col w-1/2 p-10 text-xl rounded-lg font-secundario bg-color4">
+        <div className="flex flex-col p-2 mx-2 text-base rounded-lg md:text-xl lg:w-1/2 lg:p-10 font-secundario bg-color4">
           <GrClose onClick={toggleModal} className="self-end cursor-pointer" />
 
-          <h1 className="pb-6 text-4xl font-extrabold text-transparent uppercase bg-clip-text bg-gradient-to-r from-color3 to-color2">
+          <h1 className="text-xl font-extrabold text-transparent uppercase md:2xl md:pb-6 lg:text-4xl bg-clip-text bg-gradient-to-r from-color3 to-color2">
             {props.nombre}
           </h1>
-          <div className="flex flex-row py-6 ">
+          <div className="flex flex-col py-2 md:py-6 md:flex-row ">
             <section>
-              <p className="mr-12 text-justify ">{props.descripcion}</p>
+              <p className="text-justify md:mr-2 lg:mr-12 ">
+                {props.descripcion}
+              </p>
               <p className="pb-1 my-2 font-semibold ">
                 Metodo: <span className="font-light">{props.metodo}</span>
               </p>
@@ -54,7 +56,7 @@ const Modale = (props) => {
             <img
               src={require(`../assets/${props.imagen}`)}
               alt="cursos"
-              className="w-96"
+              className="w-56 ml-12 md:ml-0 md:w-72 lg:w-96 "
             />
           </div>
 
@@ -64,12 +66,12 @@ const Modale = (props) => {
             <p>Efectivo o transferencia</p>
           </section>
           <div className="flex flex-row justify-around my-6">
-            <button className="px-6 py-3 text-2xl text-white uppercase rounded-md bg-color2 hover:bg-color1">
+            <button className="px-6 py-3 text-xl text-white uppercase rounded-md md:text-2xl pulse bg-color2 hover:bg-color1">
               <Link to="/contacto">Contratar</Link>
             </button>
             <button
               onClick={toggleModal}
-              className="px-6 py-3 text-2xl text-white uppercase rounded-md bg-color1 hover:bg-color2"
+              className="px-6 py-3 text-xl text-white uppercase rounded-md md:text-2xl bg-color1 hover:bg-color2"
             >
               Cerrar
             </button>

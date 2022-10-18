@@ -6,7 +6,7 @@ import Modale from "./modal";
 export default function DropdownComponent() {
   return (
     <div className="inline-block group">
-      <button className="flex items-center pt-2 text-white outline-none focus:outline-none min-w-32">
+      <button className="flex items-center pt-2 text-white outline-none hover:text-color3 focus:outline-none min-w-32">
         <span className="flex-1 pr-1 font-secundario">Cursos</span>
         <span>
           <AiOutlineDown className="w-6 h-6 transition duration-300 ease-in-out transform fill-current group-hover:-rotate-180" />
@@ -70,7 +70,10 @@ export default function DropdownComponent() {
           />
         </li>
         <li className="px-3 py-4 rounded-sm hover:bg-color3">
-          <NavLink to="/cursos" className="text-2xl font-bold text-white ">
+          <NavLink
+            to="/cursos"
+            className="pl-2 text-xl font-bold text-white uppercase "
+          >
             Todos los cursos
           </NavLink>
         </li>
