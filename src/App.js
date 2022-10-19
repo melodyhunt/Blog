@@ -1,4 +1,4 @@
-import Blog from "./blog";
+import Blog from "./pages";
 import "./index.css";
 import Plantas from "./pages/plantas";
 import Materiales from "./pages/materiales";

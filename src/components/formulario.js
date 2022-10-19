@@ -12,10 +12,10 @@ const Formulario = () => {
   };
   return (
     <div>
-      <div class="flex h-screen font-principal items-center justify-center  mt-16 ">
+      <div className="flex items-center justify-center h-screen font-principal ">
         <form
           onSubmit={handleSubmit(customSubmit)}
-          className="grid w-11/12 p-6 mb-56 bg-white bg-opacity-50 rounded-lg shadow-xl md:p-16 md:w-9/12 lg:w-1/2"
+          className="grid w-11/12 p-6 mb-56 bg-white bg-opacity-50 rounded-lg shadow-xl 2xl:p-16 md:w-9/12 lg:w-1/2"
         >
           <div className="grid grid-cols-1 mt-5 md:grid-cols-2 md:gap-8 mx-7">
             <div className="hidden grid-cols-1 md:grid">
@@ -42,7 +42,7 @@ const Formulario = () => {
               </label>
               <input
                 type="text"
-                placeholder="apellido"
+                placeholder="nombre y apellido"
                 {...register("apellido", {
                   required: true,
                 })}
@@ -125,7 +125,7 @@ const Formulario = () => {
           </div>
           <button
             type="submit"
-            className="w-32 py-3 mt-6 text-2xl text-center text-white uppercase bg-color3 hover:bg-color2 rounded-xl"
+            className="w-24 py-3 mt-6 text-base text-center text-white uppercase bg-color3 hover:bg-color2 rounded-xl"
           >
             enviar
           </button>

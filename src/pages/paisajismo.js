@@ -16,10 +16,10 @@ const Paisajismo = () => {
           <HiArrowLeft className="my-1" />
         </NavLink>
 
-        <h1 className="pt-4 pb-12 text-4xl font-bold text-center font-principal md:text-5xl lg:text-7xl text-color5">
+        <h1 className="pt-4 pb-12 text-3xl font-bold text-center font-principal md:text-4xl lg:text-6xl text-color5">
           Las cuatro claves del paisajismo moderno
         </h1>
-        <p className="text-2xl font-bold text-black font-principal">
+        <p className="text-base font-bold text-black font-principal">
           El paisajismo es una disciplina que engloba la planificación, gestión,
           conservación y rehabilitación de un espacio o paisaje, que va más allá
           de ser un recurso estético, y que se ha convertido en una herramienta
@@ -33,7 +33,7 @@ const Paisajismo = () => {
           alt="interiores"
           className="float-none my-2 lg:mx-6 lg:float-right"
         />
-        <p className="text-2xl font-semibold text-black font-principal">
+        <p className="text-base font-semibold text-black font-principal">
           El primer acercamiento a los jardines llegó de la mano de los
           mesopotámicos, que crearon espacios verdes resguardados entre muros,
           seguidos de los persas, con jardines como los de Babilonia, que se
@@ -45,7 +45,7 @@ const Paisajismo = () => {
           cuando los jardines vivieron su época dorada, con el jardín francés y
           el jardín inglés entre los más destacados.
         </p>
-        <p className="text-2xl font-semibold text-black font-principal">
+        <p className="text-base font-semibold text-black font-principal">
           En la actualidad, y tras miles de años de evolución, los espacios
           verdes han llegado a la sociedad, integrándose nuestro día a día y
           adaptándose a los tiempos actuales. Esto ha hecho que la figura del

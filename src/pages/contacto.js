@@ -18,7 +18,7 @@ const Contacto = () => {
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
-        <h1 className="pb-12 font-bold text-center font-principal text-7xl text-color5">
+        <h1 className="pb-4 font-bold text-center lg:pb-32 2xl:p-0 font-principal text-7xl text-color5">
           Contacto
         </h1>
         <Formulario />

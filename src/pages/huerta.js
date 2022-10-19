@@ -15,11 +15,11 @@ const Huerta = () => {
         >
           <HiArrowLeft className="my-1" />
         </NavLink>
-        <div className="px-6 pb-24 text-2xl text-black lg:px-24 md:px-12 font-secundario">
-          <h1 className="pb-12 text-5xl font-bold text-center font-principal lg:text-7xl md:text-6xl text-color5">
+        <div className="px-6 pb-24 text-xl text-black 2xl:text-2xl lg:px-24 md:px-12 font-secundario">
+          <h1 className="pb-12 text-3xl font-bold text-center font-principal lg:text-6xl md:text-5xl text-color5">
             Que podemos plantar en Primavera-Verano
           </h1>
-          <strong className="text-2xl text-black ">
+          <strong className="text-xl text-black 2xl:text-2xl ">
             A poco del inicio de la temporada cálida en Argentina, tenes que
             conocer detalle a detalles los cultivos de las estaciones que se
             vienen. En esta nota te presentamos el calendario para que sepas que
@@ -54,16 +54,16 @@ const Huerta = () => {
             variedades en un útil calendario.
           </p>
           <NavLink
-            className="px-10 pt-4 text-3xl hover:underline font-secundario text-color1 hover:text-color5"
+            className="px-10 pt-4 text-2xl 2xl:text-3xl hover:underline font-secundario text-color1 hover:text-color5"
             to="/materiales"
           >
             Ver Materiales
           </NavLink>
         </div>
-        <h1 className="px-6 mb-4 text-2xl font-bold md:text-4xl lg:px-24 md:px-12 font-principal text-color2">
+        <h1 className="px-6 mb-4 text-xl font-bold 2xl:text-2xl md:text-4xl lg:px-24 md:px-12 font-principal text-color2">
           Calendario de siembra para la primavera y el verano:
         </h1>
-        <div className="grid grid-cols-1 px-6 md:px-12 lg:px-24 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 font-principal">
+        <div className="grid grid-cols-1 px-6 md:px-12 lg:px-24 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 font-principal">
           <VerdurasFrutas
             id="10"
             nombre="Tomate"

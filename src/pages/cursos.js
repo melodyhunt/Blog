@@ -31,7 +31,7 @@ const Cursos = () => {
             <Modale
               boton="Ver mas"
               nombre="Curso Básico de Diseño de Jardines"
-              descripcion="Un jardín es el espacio verde que ayuda a mejorar las condiciones de vida de las personas, aporta al medio ambiente y es el pulmón verde de la ciudad.  En espacios grandes o pequeños podemos crear jardines para vivienda, oficinas, y más.En este curso aprenderás paso a paso a realizar un proyecto de diseño de un jardín como un profesional."
+              descripcion="Un jardín es el espacio verde que ayuda a mejorar las condiciones de vida de las personas, aporta al medio ambiente y es el pulmón verde de la ciudad.  En espacios grandes o pequeños podemos crear jardines para vivienda, oficinas, y más."
               imagen="jardin1.jpg"
               metodo="Semipresencial"
               precio="$2980"
