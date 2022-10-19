@@ -56,7 +56,7 @@ const Modale = (props) => {
             <img
               src={require(`../assets/${props.imagen}`)}
               alt="cursos"
-              className="ml-12 md:w-56 md:ml-0 lg:w-64 2xl:w-96 "
+              className="w-40 ml-12 md:w-56 md:ml-0 lg:w-64 2xl:w-96 "
             />
           </div>
 

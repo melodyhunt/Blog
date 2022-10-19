@@ -39,7 +39,7 @@ code {
   transition: .25s ease;
 }
 
-.estatico , .disparador:before {
+.estatico , .disparador {
   content:"Leer Mas";
 }
 .estatico:checked , .disparador:before {
@@ -57,20 +57,14 @@ code {
   text-transform: uppercase;
   background-color: #36473D;
   border: 1px solid #36473D ;
+
 }
   .disparador:hover {
     background-color: #788C63 ;
     border: 1px solid #788C63;
 
   }
-.primavera{
-  background: rgb(179,157,219);
-  background: linear-gradient(90deg, rgba(179,157,219,0.28895308123249297) 0%, rgba(244,143,177,0.32816876750700286) 67%);
-}
-.invierno{
-  background: rgb(144,202,249);
-background: linear-gradient(90deg, rgba(144,202,249,0.3477766106442577) 0%, rgba(128,203,196,0.4066001400560224) 67%);
-}
+
 
 li>ul                 { transform: translatex(100%) scale(0) }
 li:hover>ul           { transform: translatex(101%) scale(1) }

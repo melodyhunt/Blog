@@ -88,7 +88,7 @@ const Paisajismo = () => {
           </div>
 
           <div className="post ">
-            <input type="checkbox" className="estatico" id="post-3" />
+            <input type="checkbox" className="estatico" id="post-2" />
             <section className="leer-mas">
               <div>
                 <h1 className="text-xl font-bold uppercase font-principal text-color3">
